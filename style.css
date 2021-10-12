@@ -12,8 +12,36 @@ aside {
 
 header {
   text-align: center;
-  font-size: 3em;
+  font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  text-shadow: 2px 2px #ff0000;
+  font-weight: bold;
+  color: azure;
+}
+
+footer {
+  text-align: center;
+  bottom: 0%;
+
+  font-size: 1em;
+  color: azure;
+  position: fixed;
+}
+
+body {
+  background-color: #303030;
+}
+
+.footer_contain {
+  bottom: 0%;
+  position: absolute;
+  text-align: center;
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.footer_content {
+
+  color: azure;
+  font-size: 1em;
 }
