@@ -12,11 +12,11 @@ aside {
 
 header {
   text-align: center;
-  font-size: 4em;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
   font-weight: bold;
-  color: azure;
+  color: gray;
+  background-color: black;
 }
 
 footer {
@@ -30,18 +30,218 @@ footer {
 
 body {
   background-color: #303030;
+  font-family: Arial, Helvetica, sans-serif;
+  color: azure;
 }
 
 .footer_contain {
   bottom: 0%;
-  position: absolute;
   text-align: center;
-  margin-bottom: auto;
-  margin-top: auto;
+  margin-bottom: 0%;
+  margin-top: 100%;
 }
 
 .footer_content {
-
   color: azure;
   font-size: 1em;
+}
+
+h1 {
+  background-image: url(logo.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+
+}
+
+h4 {
+  color: azure;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1em;
+  text-align: center;
+}
+
+nav a:link {
+  color: #FFFFFF;
+}
+
+nav a:visited {
+  color: #C2E0F0;
+}
+
+nav a:hover {
+  color: #CCCCCC;
+}
+
+.title {
+  text-align: center;
+  color: azure;
+  font-size: 1.5em;
+}
+
+div img {
+  background-position: center;
+  background-color: honeydew;
+  height: 200px;
+  width: 200px;
+}
+
+.change-chapter {
+  text-align: center;
+}
+
+
+.float-child {
+  width: 50%;
+  float: left;
+  padding: 20px;
+}
+
+#wrapper {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.novel-content {
+  font-size: 1em;
+}
+
+@media only screen and (max-width:1024px) {
+
+  body {
+    margin: 0px;
+    padding: 0px;
+    background-image: none;
+  }
+
+  #wrapper {
+    margin: 0px;
+    width: auto;
+    min-width: 0;
+    box-shadow: none;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  nav {
+    float: none;
+    width: auto;
+    padding-top: 0.01em;
+    padding-bottom: 0.01em;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  nav ul {
+    display: inline-block;
+  }
+
+  nav a {
+    padding-right: 2em;
+  }
+
+  main {
+    padding: 1em;
+    margin-left: 0px;
+    font-size: 90%;
+  }
+
+  footer {
+    margin: 0;
+  }
+
+  #homehero {
+    margin-left: 0;
+  }
+
+  #yurthero {
+    margin-left: 0;
+  }
+
+  #trailhero {
+    margin-left: 0;
+  }
+}
+
+@media only all and (max-width: 768px) {
+
+
+  h1 {
+    height: 100%;
+    font-size: 1.5em;
+    padding-left: 0.3em;
+  }
+
+  nav {
+    padding: 0;
+  }
+
+  nav a {
+    display: block;
+    padding: 0.2em;
+    font-size: 1.1em;
+    border-bottom: 1px;
+    border-bottom-color: #330000;
+    padding: 0em;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  main {
+    padding-top: .1em;
+    padding-right: 0.6em;
+    padding-bottom: 0.1em;
+    padding-left: 0.4em;
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  #homehero {
+    display: none;
+  }
+
+  #yurthero {
+    display: none;
+  }
+
+  #trailhero {
+    display: none;
+  }
+
+  #mobile {
+    display: inline;
+  }
+
+  #desktop {
+    display: none;
+  }
+
 }
