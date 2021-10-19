@@ -166,18 +166,6 @@ div img {
   footer {
     margin: 0;
   }
-
-  #homehero {
-    margin-left: 0;
-  }
-
-  #yurthero {
-    margin-left: 0;
-  }
-
-  #trailhero {
-    margin-left: 0;
-  }
 }
 
 @media only all and (max-width: 768px) {
@@ -186,7 +174,7 @@ div img {
   h1 {
     height: 100%;
     font-size: 1.5em;
-    padding-left: 0.3em;
+    padding-left: 0.2em;
   }
 
   nav {
@@ -222,18 +210,6 @@ div img {
 
   footer {
     padding: 0;
-  }
-
-  #homehero {
-    display: none;
-  }
-
-  #yurthero {
-    display: none;
-  }
-
-  #trailhero {
-    display: none;
   }
 
   #mobile {
